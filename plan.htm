@@ -1,0 +1,173 @@
+<html>
+	<head>
+		<title>Plan Your Visit!</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="index.js"></script>
+		<style>#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;}
+      	</style>
+	</head>
+	<body>
+		<nav>
+			<div class="inner">
+				<div class="topnav">
+					<div class="name"><img src="logo_black.png"/></div>
+					<div class="navitems">
+						<div class="navpiece">
+							<div class="dropbtn">VISIT</div>
+							<div class="dropdown-content">
+								<a href="#">PLAN VISIT</a>
+								<a href="#">HOURS/ADMISSION</a>
+								<a href="#">MAP</a>
+								<a href="#">GIFT SHOP</a>
+								<a href="#">EVENTS</a>
+								<a href="#">FAQs</a>
+							</div>
+						</div>
+						<div class="navpiece">
+							<div class="dropbtn">CONSERVATION</div>
+							<div class="dropdown-content">
+								<a href="#">NEWS</a>
+								<a href="#">RESEARCH</a>
+								<a href="#">EDUCATION</a>
+								<a href="#">ACCREDITATION</a>
+							</div>
+						</div>
+						<div class="navpiece">
+							<div class="dropbtn">EXHIBITS</div>
+							<div class="dropdown-content">
+								<a href="#">NEW</a>
+								<a href="#">MAMMALS</a>
+								<a href="#">BIRDS</a>
+								<a href="#">AMPHIBIANS</a>
+								<a href="#">FISH</a>
+								<a href="#">INVERTIBRATES</a>
+							</div>
+						</div>
+						<div class="navpiece">
+							<div class="dropbtn">CONNECT</div>
+							<div class="dropdown-content">
+								<a href="#">ABOUT US</a>
+								<a href="#">IN THE NEWS</a>
+								<a href="#">WORK HERE</a>
+								<a href="#">VOLUNTEER</a>
+								<a href="#">HOST AN EVENT</a>
+							</div>
+						</div>
+						<div class="a1">TICKETS</div>
+						<div class="b1">MEMBERSHIP</div>
+						<div class="c1">DONATE</div>
+					</div>
+				</div>
+			</div> <!--end inner--> 
+		</nav>
+		<div class="lower">
+			<section id="plan">
+				<div class="inner">
+					<div class="planning">
+						<div class="planl">
+							<div class="planl1"><span class="font">PLAN YOUR VISIT</span></div>
+							<div class="planl2"><img src="welcome.jpg"></div>
+							<div class="planl3"><a href="#"><span class="font">BUY TICKETS</span></a></div>
+						</div>
+						<div class="planr"><b>Hours:</b><br>10:00 a.m. - 4:30 p.m.</p><p><b>Phone:</b><br> (315) 435-8511</p><p><b>Email:</b><br> info@rosamondgiffordzoo.org</p><p><b>Address:</b><br>One Conservation Place<br>
+						Syracuse, NY 13204</p></div>
+					</div>
+				</div><!--end inner-->
+			</section>
+			<section id="map">
+				<div class="inner">
+					<div id="map"></div>
+					<script>function initMap() { var uluru = {lat: 43.0431, lng: -76.1813};var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: uluru});
+var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    			</script>
+    		<script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_4HoSWbqITzQB094sxILi2SCB-r_MxlA&callback=initMap">
+   				 </script>
+				</div>
+			</section>
+			<section id="tickets">
+				<div class="inner">
+					<div class="ticketold">
+						<div class ="tickets"><span class="font1">TICKET PRICING</span><p><b>Children 2 & Under:</b> FREE</p><p><b>Youth (3-17):</b> $5.00</p><p><b>Adult (18-61):</b> $9.00</p><p><b>Seniors (62+):</b> $5.00</p></div>
+						<div class="slidebinder">
+							<div class="left">
+								<div class="phantbuttonleft"><img src="phant.png"></div>
+							</div>
+
+							<div class="right">
+								<div class="phantbuttonright"><img src="phant2.png"></div>
+							</div>
+							<div class="sliderbox">
+								<div class="slide"><img src="bird.jpg"></div>
+								<div class="slide"><img src="cat.jpg"></div>
+								<div class="slide"><img src="peng1.jpg"></div>
+								<div class="slide"><img src="cute.jpg"></div>
+								<div class="slide"><img src="frog.jpg"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="cafe">
+				<div class="inner">
+					<div class="cafeparent">
+						<div class="cafel">
+							<div class="cafeabout"><p><b><span class="font1">FEEDING TIME!</span></b></p>Our Jungle Café is convenient, delicious and full of choices. Both outdoor and indoor eating areas are available. Join us for lunch or snacks.</div>
+							<div class="hours">The Jungle Café is open from <b>10:00 a.m. to 4:15 p.m.</b></div>
+							<div class="flipcard">
+								<div class="flipcardinner">
+									<div class="flipfront"><img src="eat.jpg"></div>
+									<div class="flipback"><h1><span class="font1">OUR MENU INCLUDES:</span></h1><p>All-natural hot dogs, BBQ pulled pork, vegan grain burgers, chicken tenders, soft pretzels, nachos with chili and cheese, Dippin’ Dots ice cream, soft drinks, Icees</p></div>
+								</div>
+							</div>
+						</div>
+						<div class="cafer">
+							<div class="eat"><img src="tiger.jpg"></div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section id="access">
+				<div class="inner">
+					<div class="access"><b>A Note on Accessibility:</b> <p>Accessible parking and restroom facilities are available. At least <b>60% of our exhibits are located indoors.</b> Both the inside and outdoor pathways at the zoo are accessible. Wheelchairs are available free of charge on a first come, first served basis.  </p>
+
+					<p>For more detailed information on accessibility at the Rosamond Gifford Zoo, visit the New York State Inclusive Recreation Resource Center page for our zoo. </p>
+					</div>
+				</div>
+			</section>
+			<section id="tips">
+				<div class="inner">
+					<div class="tips"><span class="tips1">Some insider tips for your upcoming visit:</span>
+						<ul>
+							<li>Plan to spend at least two hours at the Zoo.</li>
+							<li>Check out the Zoo daily schedule upon arrival. </li>
+							<li>Interact with Zoo staff and use #BestDayEver on social media posts.</li>
+							<li>Before you leave the Zoo, be sure to stop in and check out all the amazing items they have to offer.</li>
+							<li>Pets are not permitted on zoo grounds, in the parking lot or in cars.</li>
+							<li>The Rosamond Gifford Zoo is a tobacco-free, smoke-free and vape-free facility.</li>
+							<li>We welcome you to take photographs and video of your experience at the zoo for personal use. </li>
+							<li>Have plenty of fun!</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="end">
+				<div class="inner">
+					<div class="end">
+						<div class="post"><img src="logo_white.png"></div>
+						<div class="endtext"><p><b>Connect:</b></p><p><b>Phone:</b> (315) 435-8511</p><p><b>Email:</b> info@rosamondgiffordzoo.org</p><p>One Conservation Place<br>
+						Syracuse, NY 13204</p><p> © 2018, Sophie Estep</div>
+						<div class="post"><img src="safe.png"></div>
+					</div>
+				</div><!-- end inner-->
+			</section>
+		</div>
+	</body>
+</html>
